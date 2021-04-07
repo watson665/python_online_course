@@ -14,4 +14,9 @@ def main():
     result = add_nums(result, 6)
     print(result)
 
-main()
+#Only run main() if we are in this module so that it doesn't run in imported modules
+if __name__ == '__main__':
+    main()
+
+
+
